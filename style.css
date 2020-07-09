@@ -1,0 +1,125 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(223, 190, 137);
+}
+
+#img_header, #img_footer {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    opacity: 60%;
+}
+
+#img_header {
+    position: absolute;
+    margin-top: 0;
+    z-index: 1;
+}
+
+#titre {
+    position: relative;
+    margin: 0;
+    z-index: 99;
+    text-transform: uppercase;
+    opacity: 70%;
+    text-align: center;
+    padding-top: 15%;
+    font-size: 5em;
+    letter-spacing: 0.3em;
+    padding-bottom: 12%;
+}
+#div_img_main {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 70px;
+    position: absolute;
+    z-index: 1;
+}
+
+#img_main {
+    width: 50%;
+    opacity: 20%;
+    padding-top: 100px;
+}
+
+#formulaire_conexion {
+    position: relative;
+    z-index: 99;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#formulaire_inscription {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 99;
+}
+
+h1, h3 {
+    font-family: Cinzel;
+    color: rgb(104, 89, 5);
+}
+
+h3, #email_membre {
+    display: inline;
+    margin-top: 30px;
+}
+
+input[type=checkbox], input[type=radio] {
+    width: 20px;
+}
+
+.label {
+    font-size: 1.2em;
+}
+
+#premiers_loisirs, #derniers_loisirs {
+    display: inline-block;
+    width: 200px;
+}
+
+#check1, #check2, #check3, #check4, #check5, #check6, #check7, #check8, #check9, #check10 {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+#submit_conexion {
+    padding: 5px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin-right: 20px;
+    font-family: Cinzel;
+    font-size: 1em;
+    padding: 5px 10px;
+}
+
+#submit_inscription {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px 15px;
+    font-weight: bolder;
+    letter-spacing: 0.05em;
+    border: rgb(248, 217, 167) solid 2px;
+    margin-top: 50px;
+    font-family: Cinzel;
+    font-size: 1em;
+}
+
+input, #ville {
+    background-color: rgba(223, 190, 137, 0.726);
+    padding: 3px;
+    border: rgb(248, 217, 167) solid 2px;
+}
+
+input:hover, #submit_conexion:hover, #submit_inscription:hover, select:hover {
+    border: rgb(167, 140, 99) solid 1.5px;
+    background-color: rgba(196, 166, 117, 0.863);
+}

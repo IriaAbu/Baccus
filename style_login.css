@@ -1,0 +1,180 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(223, 190, 137);
+}
+
+#img_header, #img_footer {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    opacity: 60%;
+}
+
+#div_taille {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+}
+
+#ville {
+    background-color: rgb(240, 214, 173);
+    border: 1px solid #333;
+}
+
+.filtres, option {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    z-index: 99;
+    float: right;
+    background-color: rgb(240, 214, 173);
+    width: 150px;
+    text-align: center;
+    font-family: Cinzel;
+    font-weight: bold;
+    border: 1px solid #333;
+    font-size: 0.9em;
+    height: 34px;
+    float: left;
+}
+
+.filtres:hover {
+    background-color: rgb(248, 244, 237);
+    opacity: 50%;
+}
+
+#submit_recherche {
+    display: inline;
+    position: relative;
+    float: right;
+}
+
+.menu, .menu ul {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    line-height: 2em;
+    z-index: 99;
+    float: right;
+}
+
+.menu a {
+    color: #111;
+    border: 1px solid #333;
+    background-color: rgb(240, 214, 173);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 200px;
+}
+
+.menu input {
+    border: none;
+    background-color: rgba(240, 214, 173, 0.013);
+    color: #111;
+    text-align: center;
+    width: 150px;
+    font-size: 0.9em;
+    font-family: Cinzel;
+    font-weight: bold;
+}
+
+.menu a:hover, .menu input:hover {
+    background-color: rgb(248, 244, 237);
+    opacity: 50%;
+}
+
+.menu li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.menu ul {
+    line-height: 1.7em;
+    position: absolute;
+    display: none;
+}
+
+h1 {
+    position: relative;
+    z-index: 98;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 15%;
+    font-family: Cinzel;
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    color: rgb(104, 89, 5);
+}
+
+#infos {
+    position: relative;
+    z-index: 98;
+    text-align: center;
+    margin-top: 20%;
+}
+
+#div_infos1, #div_infos2 {
+    display: inline-block;
+}
+
+#div_infos2 h2 {
+    font-family: Cinzel;
+    color: rgb(104, 89, 5);
+    padding-bottom: 20px;
+    border-bottom: rgb(104, 89, 5) solid 1px;
+    margin-bottom: 50px;
+}
+
+#div_infos2 input, #div_infos2 select, #input_genre, #genre {
+    background-color: rgba(223, 190, 137, 0.726);
+    padding: 3px;
+    border: rgb(248, 217, 167) solid 2px;
+}
+
+#div_infos2 input:hover, #ville:hover, #input_genre:hover, #genre:hover {
+    border: rgb(167, 140, 99) solid 1.5px;
+    background-color: rgba(196, 166, 117, 0.863);
+}
+
+#submit_modiff, #submit_out, #submit_suppr {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    letter-spacing: 0.05em;
+    border: rgb(248, 217, 167) solid 2px;
+    font-family: Cinzel;
+    font-size: 1em;
+}
+
+#submit_out, #submit_suppr {
+    background-color: rgba(223, 190, 137, 0.726);
+    padding: 10px 15px;
+}
+
+#submit_out:hover, #submit_suppr:hover {
+    border: rgb(167, 140, 99) solid 1.5px;
+    background-color: rgba(196, 166, 117, 0.863);
+}
+
+#label_fermer, #label_suppr {
+    font-family: Cinzel;
+    color: rgb(104, 89, 5);
+    letter-spacing: 0.1em;
+}
+
+footer #img_frise {
+    margin-top: 150px;
+    padding: 0;
+    opacity: 10%;
+    width: 100%;
+}
